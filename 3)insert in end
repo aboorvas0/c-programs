@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include<conio.h>
+void main()
+{
+    int a[20],i,n,num;
+    printf("enter the n value");
+    scanf("%d",&n);
+    printf("enter the array value");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    printf("enter your insert value");
+    scanf("%d",&num);
+   
+    a[n]=num;
+    n++;
+    for(i=0;i<n;i++)
+    {
+        printf("%d",a[i]);
+    }
+}
